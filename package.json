@@ -8,10 +8,10 @@
   "keywords": [],
   "scripts": {
     "build": "yavascript meta/build.js",
-    "bundle": "kame bundle --resolver meta/kame.config.ts --input src/index.ts --output dist/index.js"
+    "bundle": "kame bundle --input src/index.ts --output dist/index.js"
   },
   "devDependencies": {
     "yavascript": "^0.0.9",
-    "kame": "^0.11.0"
+    "kame": "^0.12.0"
   }
 }
