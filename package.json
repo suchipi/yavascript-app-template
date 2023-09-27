@@ -1,0 +1,17 @@
+{
+  "name": "yavascript-app-template",
+  "private": true,
+  "version": "0.1.0",
+  "main": "npm/index.js",
+  "bin": "npm/bin.js",
+  "types": "npm/types.d.ts",
+  "keywords": [],
+  "scripts": {
+    "build": "yavascript meta/build.js",
+    "bundle": "kame bundle --resolver meta/kame.config.ts --input src/index.ts --output dist/index.js"
+  },
+  "devDependencies": {
+    "yavascript": "^0.0.9",
+    "kame": "^0.11.0"
+  }
+}
